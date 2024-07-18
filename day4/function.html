@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is function</h1>
+
+    <p>Call a function which performs a calculation and returns the result :::</p>
+
+    <!-- <p class="demo"></p> -->
+
+    <p id="demo">this is my mark</p>
+
+    <script>
+        let u = myMark(4,9);
+        // document.querySelector(".demo").innerHTML = "The mark is " + u;
+        document.getElementById("demo").textContent = "The mark of english is " + u ;
+
+        function myMark(x,y){
+            return x*y;
+        }
+    </script>
+</body>
+</html>
+
+
+<!-- text result => innerHTML or textContent -->
+
